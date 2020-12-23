@@ -227,7 +227,7 @@ if (isset($_POST["submit"])) {
 
         function load_cart_data(){
             $.ajax({
-                url: "get-cart.php",
+                url: "get-cart-2.php",
                 type: "POST",
                 success: function(value){
                     var data = value.split(",");
